@@ -1,2 +1,2 @@
-# My Project
-This is my project
+# Pandishpan
+Online shop for handmade things.
