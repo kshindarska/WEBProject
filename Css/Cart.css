@@ -1,0 +1,24 @@
+body {
+  font-family: Quicksand;
+  font-size: 17px;
+  padding: 0px;
+}
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+      background-color: #1a001a;
+    } 
+
+.container {
+  margin-bottom: 20px; 
+  margin-top:80px;
+  background-color: #e6e6ff;
+  padding: 5px 20px 15px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}

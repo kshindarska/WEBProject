@@ -1,0 +1,22 @@
+body {
+  		font-family: Quicksand;
+  		font-size: 17px;
+  		padding: 0px;
+	}
+  	.navbar {
+  		margin-bottom: 50px;
+  		border-radius: 0;
+  		background-color: #1a001a;
+  	} 
+
+    .container {
+      margin-top:80px;
+    }
+
+    #Carousel {
+      width:70%;
+      height: 460px; 
+      display: block; 
+      margin-left: auto; 
+      margin-right: auto;
+    }

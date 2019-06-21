@@ -7,22 +7,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
-<style type="text/css">
-    body {
-      font-family: Arial;
-      font-size: 17px;
-      padding: 0px;
-    }
-  
-    .navbar {
-      margin-bottom: 50px;
-      border-radius: 0;
-      background-color: #1a001a;
-    } 
-</style>
+  <link rel="stylesheet" type="text/css" href="Css/Products.css">
 
 </head>
 
@@ -30,13 +18,16 @@
 
                           <!--Navbar-->
 
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Pandishpan</a>
+      <a class="navbar-brand" href="#">
+        <i class="glyphicon glyphicon-gift"></i>
+      Pandishpan
+      </a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="FirstPagee.html">Home</a></li>
+      <li><a href="Home.html">Home</a></li>
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Cards<span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="BdayCards.html" >Birthday cards</a></li>
@@ -49,8 +40,8 @@
     <ul class="nav navbar-nav navbar-right">
       <li><a href="#"><span class="glyphicon glyphicon-user"></span> My Account</a></li>
       <li><a href="Cart.html"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
-      <li><a href="RegisterForm.html"><span  class="glyphicon glyphicon-user"></span> Register</a></li>
-      <li><a href="#" onclick="document.getElementById('id01').style.display='block'"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      <li><a href="#"><span  class="glyphicon glyphicon-user"></span> Register</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
     </ul>
     <form class="navbar-form navbar-left" action="/action_page.php">
       <div class="input-group">
@@ -69,70 +60,98 @@
 
 <div class="container">
   <div class="row">
+
     <div class="col-md-4">
-      <div class="thumbnail">
-        <a href="Myjeans.jpg" target="_blank">
-          <img src="Myjeans.jpg" alt="Jeans" style="width:100%">
+      <div class="thumbnail" style="width:100%; height: 560px">
+
+        <div id="Carousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+          <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#Carousel" data-slide-to="1"></li>
+        </ol>
+
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="Images/Clothes/MyJeans1.jpg" alt="Jeans" style="width:100%; height: 460px; display: block; margin-left: auto; margin-right: auto;">
+          </div>
+
+          <div class="item">
+            <img src="Images/Clothes/MyJeans2.jpg" alt="Jeans" style="width:100%; height: 460px; display: block; margin-left: auto; margin-right: auto;">
+          </div>
+        </div>
+
+        <a class="left carousel-control" href="#Carousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#Carousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </div>
           <div class="caption">
+            <p>5BGN</p>
             <a href="#" class="btn btn-info" role="button">Buy</a>
             <a href="#" class="btn btn-info" role="button">Add to cart</a>
           </div>
-        </a>
       </div>
     </div>
     <div class="col-md-4">
       <div class="thumbnail">
-        <a href="Jacket1.jpg" target="_blank">
-          <img src="Jacket1.jpg" alt="Jacket" style="width:100%">
+        <a href="Images/Clothes/Jacket1.jpg" target="_blank">
+          <img src="Images/Clothes/Jacket1.jpg" alt="Jacket" style="width:90%">
+        </a>
           <div class="caption">
+            <p>5BGN</p>
           	<a href="#" class="btn btn-info" role="button">Buy</a>
           	<a href="#" class="btn btn-info" role="button">Add to cart</a>
           </div>
-        </a>
       </div>
     </div>
     <div class="col-md-4">
       <div class="thumbnail">
-        <a href="Jacket2.jpg" target="_blank">
-          <img src="Jacket2.jpg" alt="Jacket" style="width:100%">
+        <a href="Images/Clothes/Jacket2.jpg" target="_blank">
+          <img src="Images/Clothes/Jacket2.jpg" alt="Jacket" style="width:100%">
+        </a>
           <div class="caption">
+            <p>5BGN</p>
           	<a href="#" class="btn btn-info" role="button">Buy</a>
           	<a href="#" class="btn btn-info" role="button">Add to cart</a>
           </div>
-        </a>
       </div>
     </div>
     <div class="col-md-4">
       <div class="thumbnail">
-        <a href="Jeans1.jpg" target="_blank">
-          <img src="Jeans1.jpg" alt="Jeans" style="width:100%">
+        <a href="Images/Clothes/Jeans1.jpg" target="_blank">
+          <img src="Images/Clothes/Jeans1.jpg" alt="Jeans" style="width:92%">
+        </a>
           <div class="caption">
+            <p>5BGN</p>
           	<a href="#" class="btn btn-info" role="button">Buy</a>
           	<a href="#" class="btn btn-info" role="button">Add to cart</a>
           </div>
-        </a>
       </div>
     </div>
     <div class="col-md-4">
       <div class="thumbnail">
-        <a href="Jeans2.jpg" target="_blank">
-          <img src="Jeans2.jpg" alt="Jeans" style="width:100%">
+        <a href="Images/Clothes/Jeans2.jpg" target="_blank">
+          <img src="Images/Clothes/Jeans2.jpg" alt="Jeans" style="width:97%">
+        </a>
           <div class="caption">
+            <p>5BGN</p>
             <a href="#" class="btn btn-info" role="button">Buy</a>
             <a href="#" class="btn btn-info" role="button">Add to cart</a>
           </div>
-        </a>
       </div>
     </div>
     <div class="col-md-4">
       <div class="thumbnail">
-        <a href="T-shirt1.jpg" target="_blank">
-          <img src="T-shirt1.jpg" alt="T-shirt" style="width:100%">
+        <a href=Images/Clothes/T-shirt1.jpg" target="_blank">
+          <img src="Images/Clothes/T-shirt1.jpg" alt="T-shirt" style="width:100%">
+        </a>
           <div class="caption">
+            <p>5BGN</p>
             <a href="#" class="btn btn-info" role="button">Buy</a>
             <a href="#" class="btn btn-info" role="button">Add to cart</a>
           </div>
-        </a>
       </div>
     </div>
   </div>
